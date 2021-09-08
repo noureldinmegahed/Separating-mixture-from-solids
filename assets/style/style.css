@@ -40,11 +40,12 @@ button {
   margin-left: 180px;
   background-size: 976px;
   display: inline-block;
+  margin-right: 120px;
 }
 #magnetictool {
   width: 90px;
   height: auto;
-  bottom: 300px;
+  bottom: 350px;
   z-index: 11;
   text-align: center;
   position: absolute;
@@ -52,7 +53,7 @@ button {
 #sand {
   width: 90px;
   height: auto;
-  bottom: 200px;
+  bottom: 250px;
   z-index: 10;
   text-align: center;
   position: absolute;
@@ -60,19 +61,27 @@ button {
 #iron {
   width: 90px;
   height: auto;
-  bottom: 100px;
+  bottom: 150px;
   z-index: 9;
   text-align: center;
   position: absolute;
 }
 .tool {
   justify-content: center !important;
-  padding: 35px;
+  padding: 10px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+.tool :active{
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
 }
 #toolsContainer {
   display: inline-block;
-  margin-left: 60px;
-  background-color: white;
+  background-color: #f2f2f2;
+  box-shadow: 3px 3px #b5b5b5;
+  width: 140px;
+  height: 325px;
 }
 #mydiv {
   position: absolute;
@@ -93,7 +102,7 @@ button {
   width: 50px;
   height: 50px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .parentIcons {
   display: inline-block;
@@ -107,13 +116,43 @@ button {
 #buttons {
   margin: 20px 0 20px 180px;
 }
-#logo{
+#logo {
   width: 200px;
   height: 88px;
   background-color: white;
   padding: 15px;
   border-radius: 20px;
 }
-#parentExperimentAddress{
+#parentExperimentAddress {
   display: inline-block;
+}
+/* Steps Page */
+#stepsVideo {
+  width: 739px;
+  height: 448px;
+}
+#bodysteps{
+  text-align: center;
+  margin-top: 150px;
+}
+#conclusionVideo{
+  width: 739px;
+  height: 448px;
+}
+#bodyconclusion{
+  text-align: center;
+  margin-top: 150px;
+}
+#containerofhelp{
+  width: 739px;
+  height: 448px;
+  border: #14213d solid 1px;
+  border-radius: 15px;
+  background-color: white;
+}
+#bodyhelp{
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 25%;
+  margin-right: 25%;
 }

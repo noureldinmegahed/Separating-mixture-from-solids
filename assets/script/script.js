@@ -204,8 +204,7 @@ function clickHandler(e) {
       iron.src = "assets/images/ironAndSand.png";
       sand.style.display = "none";
     } else if (value2 == check2) {
-      magnetictool.src =
-        "assets/images/magnetictoolAndIron.png";
+      magnetictool.src = "assets/images/magnetictoolAndIron.png";
       iron.src = "assets/images/sand2.png";
     }
   } else {
