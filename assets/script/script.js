@@ -215,12 +215,10 @@ function clickHandler(e) {
 function hide1() {
   document.getElementById("stepsVideo").style.display = "none";
   document.getElementById("conclusionVideo").style.display = "block";
-  console.log("hide1 success");
 }
 function hide2() {
   document.getElementById("conclusionVideo").style.display = "none";
   document.getElementById("stepsVideo").style.display = "block";
-  console.log("hide2 success");
 }
 function hide3() {
   document.getElementById("conclusionVideo").style.display = "none";

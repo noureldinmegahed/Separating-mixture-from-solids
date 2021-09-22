@@ -139,6 +139,7 @@ button {
   top: 161px;
   left: 180px;
   border: #03045e solid 12px;
+  border-radius: 18px;
 }
 #bodysteps {
   text-align: center;
@@ -152,6 +153,7 @@ button {
   top: 161px;
   left: 180px;
   border: #03045e solid 12px;
+  border-radius: 18px;
 }
 #bodyconclusion {
   text-align: center;
