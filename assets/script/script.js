@@ -1,3 +1,4 @@
+var forclass = document.getElementsByClassName("video");
 //Make the DIV element draggagle:
 dragElement(document.getElementById("magnetictool"));
 
@@ -210,4 +211,29 @@ function clickHandler(e) {
   } else {
     console.log(elem.id + " touches nothing.");
   }
+}
+function hide1() {
+  document.getElementById("stepsVideo").style.display = "none";
+  document.getElementById("conclusionVideo").style.display = "block";
+  console.log("hide1 success");
+}
+function hide2() {
+  document.getElementById("conclusionVideo").style.display = "none";
+  document.getElementById("stepsVideo").style.display = "block";
+  console.log("hide2 success");
+}
+function hide3() {
+  document.getElementById("conclusionVideo").style.display = "none";
+  document.getElementById("stepsVideo").style.display = "none";
+  document.getElementById("containerofhelp").style.display = "none";
+}
+function hide4() {
+  document.getElementById("conclusionVideo").style.display = "none";
+  document.getElementById("stepsVideo").style.display = "none";
+  document.getElementById("containerofhelp").style.display = "block";
+}
+function hide5() {
+  document.getElementById("conclusionVideo").style.display = "none";
+  document.getElementById("stepsVideo").style.display = "none";
+  document.getElementById("containerofhelp").style.display = "none";
 }

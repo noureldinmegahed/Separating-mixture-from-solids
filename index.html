@@ -15,33 +15,33 @@
           <img id="logo" src="assets/images/logo.png" />
         </div>
         <div class="parentIcons">
-          <button><img class="icons" src="assets/images/back1.png" /></button>
+          <button onclick="hide3()">
+            <img class="icons" src="assets/images/back1.png" />
+          </button>
           <p>Back</p>
         </div>
         <div class="parentIcons">
-          <a href="help.html">
-            <button><img class="icons" src="assets/images/help.png" /></button>
-            <p>Help</p>
-          </a>
+          <button onclick="hide4()">
+            <img class="icons" src="assets/images/help.png" />
+          </button>
+          <p>Help</p>
         </div>
         <div class="parentIcons">
-          <a href="conclusion.html">
-          <button>
+          <button onclick="hide1()">
             <img class="icons" src="assets/images/lightbulb.png" />
           </button>
           <p>Conclusion</p>
-        </a>
         </div>
         <div class="parentIcons">
-          <a href="steps.html">
-          <button>
+          <button onclick="hide2()">
             <img id="steps" class="icons" src="assets/images/steps.png" />
           </button>
           <p>Steps</p>
-        </a>
         </div>
         <div class="parentIcons">
-          <button><img class="icons" src="assets/images/home.png" /></button>
+          <button onclick="hide5()">
+            <img class="icons" src="assets/images/home.png" />
+          </button>
           <p>Home</p>
         </div>
       </div>
@@ -64,6 +64,28 @@
         </div>
       </div>
     </div>
+    <div class="video" id="containerofhelp">
+      <p style="margin-top: 150px">
+        You have the tools that you will use in the experiment, and you have a
+        button called Try it yourself. When you press it, a screen will appear
+        in front of you in which you can try the experiment. On the right, you
+        will find the tools that you can drag into the place designated for them
+        to start using them in the experiment. You will find above a button
+        called Steps. If you click on it, you can go back to the steps again and
+        also buttons. Conclusion You can click on it and know the result that
+        will appear after doing the experiment
+      </p>
+    </div>
+    <video class="video" id="stepsVideo" width="320" height="280" controls>
+      <source src="assets/videos/Steps.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <video class="video" id="conclusionVideo" width="320" height="240" controls>
+      <source src="assets/videos/Conclusion.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="video" id="helpcontain" width="320" height="240"></div>
     <script src="assets/script/script.js"></script>
   </body>
 </html>
